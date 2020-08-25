@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EaAppTestSuite">
+        <test name="E2E">
+        <classes>
+            <class name="test.pageTests.HomePageTest"/>
+            <class name="test.pageTests.RegistrationTest"/>
+        </classes>
+    </test>
+</suite>
+
